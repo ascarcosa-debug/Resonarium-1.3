@@ -1,0 +1,27 @@
+VISUALES EN VIVO - PAQUETE SIN CONEXION (PWA)  v13
+
+Que es: la app completa. Se instala en la tablet o el celular, funciona sin internet
+y se renueva sola cuando hay conexion.
+
+PUBLICAR EN GITHUB PAGES (todo desde la tablet)
+1. Crea una cuenta en github.com y un repositorio PUBLICO nuevo.
+2. Descomprime este zip. En el repositorio: "Add file" > "Upload files" y sube
+   index.html, sw.js, manifest.webmanifest, icon-192.png e icon-512.png.
+3. Settings > Pages > "Deploy from a branch" > rama main, carpeta raiz > Save.
+4. En unos minutos tendras el enlace https://TUUSUARIO.github.io/NOMBRE/ .
+   Abrelo en Chrome con wifi y elige "Instalar app".
+
+PROTEGERLA CON CONTRASENA
+Un sitio de GitHub Pages es publico. Para que solo entre quien tenga la contrasena:
+1. Abre proteger.html con Chrome (no lo subas a GitHub).
+2. Elige el index.html de este paquete, escribe una contrasena larga y pulsa "Proteger".
+3. Sube a GitHub el index.html que se descargo, en lugar del original.
+La app queda cifrada: sin la contrasena no se puede leer. NO subas a GitHub ningun archivo
+sin proteger de la app (por ejemplo visuales-en-vivo-v13.html).
+
+ACTUALIZAR
+Reemplaza index.html (y sw.js, cambiando el numero en const V='visuales-v13') en el repositorio.
+La app instalada lo descarga sola la siguiente vez que abra con conexion.
+
+CAMBIAR EL NOMBRE O LOS ICONOS
+"name" y "short_name" en manifest.webmanifest; icon-192.png e icon-512.png (mismo tamano y nombre).
