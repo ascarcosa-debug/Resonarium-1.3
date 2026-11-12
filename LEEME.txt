@@ -1,0 +1,10 @@
+VISUALES EN VIVO - PAQUETE PROTEGIDO CON CONTRASENA  v13
+
+Este paquete ya tiene la app cifrada en index.html. Se usa igual que el paquete normal:
+1. Crea un repositorio PUBLICO en GitHub y sube TODOS estos archivos (Add file > Upload files).
+2. Settings > Pages > Deploy from a branch > main > carpeta raiz > Save.
+3. Abre el enlace en Chrome con wifi, escribe la contrasena y elige "Instalar app".
+   Marca "Recordar en este dispositivo" si no quieres escribirla cada vez.
+
+CAMBIAR LA CONTRASENA: usa proteger.html (del paquete normal) con el index.html sin proteger.
+NO subas a GitHub la app sin proteger. Con sw.js y la app instalada, funciona sin internet.
